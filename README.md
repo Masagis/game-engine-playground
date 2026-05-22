@@ -1,4 +1,4 @@
-# 🎮 SCM — Game Engine Playground
+# 🎮 Game Engine Playground
 
 A mini 2D game-engine playground built with **Vue 3**, **Tailwind CSS v4**, and the **HTML5 Canvas API**. Manipulate a character or sprite in real-time using keyboard and mouse controls, while observing live debug telemetry — position, rotation, scale, FPS, and active key inputs — all rendered on a sleek, dark-themed interface.
 
@@ -33,8 +33,8 @@ A mini 2D game-engine playground built with **Vue 3**, **Tailwind CSS v4**, and 
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/masagis/scm-game-engine-playground.git
-cd scm-game-engine-playground
+git clone https://github.com/masagis/game-engine-playground.git
+cd game-engine-playground
 ```
 
 **Using npm:**
