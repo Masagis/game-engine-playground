@@ -7,7 +7,7 @@
   "author": "Agis Tri Wahyuji",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/masagis/scm-game-engine-playground.git"
+    "url": "git@github.com:Masagis/game-engine-playground.git"
   },
   "license": "MIT",
   "keywords": [
