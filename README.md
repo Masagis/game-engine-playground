@@ -130,7 +130,7 @@ npm run format      # or: yarn format / pnpm format
 ## 📁 Project Structure
 
 ```
-scm-game-engine-playground/
+game-engine-playground/
 ├── public/
 │   └── favicon.svg               # SVG favicon (ATW logo)
 │
@@ -203,7 +203,7 @@ Handles keyboard and mouse input. Tracks pressed keys in a reactive `Set`, captu
 | **Rendering**      | HTML5 Canvas API — 2D context for game rendering                      |
 | **Linting**        | [ESLint](https://eslint.org/) + `eslint-plugin-vue`                   |
 | **Formatting**     | [Prettier](https://prettier.io/)                                      |
-| **Git Hooks**      | [Husky](https://typicode.github.io/husky/) + lint-staged              |
+| **Git Hooks**      | [Husky](https://typicode.github.io/husky/)                            |
 | **Commit Linting** | [Commitlint](https://commitlint.js.org/) (Conventional Commits)       |
 | **Language**       | JavaScript (ES Modules)                                               |
 
