@@ -1,0 +1,53 @@
+{
+  "name": "scm-game-engine-playground",
+  "description": "Mini Game Engine Playground",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "author": "Agis Tri Wahyuji",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masagis/scm-game-engine-playground.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "game engine",
+    "2d game",
+    "javascript",
+    "vue",
+    "canvas"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint --ext .js,.vue --fix src",
+    "format": "prettier .  --write",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.{js,ts,vue}": [
+      "prettier --write"
+    ],
+    "*.{html,json,css,scss,md}": [
+      "prettier --write"
+    ]
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.0",
+    "tailwindcss": "^4.3.0",
+    "vue": "^3.5.34"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^21.0.1",
+    "@commitlint/config-conventional": "^21.0.1",
+    "@vitejs/plugin-vue": "^6.0.6",
+    "eslint": "^10.4.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-vue": "^10.9.1",
+    "husky": "^9.1.7",
+    "lint-staged": "^17.5.2",
+    "prettier": "3.8.3",
+    "vite": "^8.0.12"
+  }
+}
